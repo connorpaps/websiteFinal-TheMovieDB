@@ -1,0 +1,171 @@
+<!--
+Name: Connor Papas
+ID: 160517199
+Date: December 10, 2020
+WEB222 Final Assessment Website
+
+WEBSITE CHOSEN: https://www.themoviedb.org/
+
+My Website Hosted Link: https://connorpweb222project.netlify.app/
+-->
+
+<!DOCTYPE html>
+<html lang="en"></html>
+<html>
+    <head>
+        <title>The Movie Database (TMDb)</title>
+        <!--links to free google fonts used in the website-->
+        <link rel="icon" href="images/favicon-mdb.png" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,600;0,900;1,700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@0;1&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="../css/nowplaying.css">
+        <link rel="stylesheet" href="../css/headfoot.css">
+
+        <!--Font awesome kit code link to use font awesome icons. Change to your kit code if mine is not working-->
+        <script src="https://kit.fontawesome.com/416a94f5e0.js" crossorigin="anonymous"></script>
+    </head>
+    
+    <body>
+        <header>
+            <a href="../index.html"><h2>TMDB</h2></a>
+            <img src="../images/headerlogo.png" id="tmdblogo" alt="tmdblogo">
+            <ul class="leftitems">
+                <li id="left1"><a href="nowplaying.html">Movies</a></li>
+                <li id="left2"><a href="">TV Shows</a></li>
+                <li id="left3"><a href="">People</a></li>
+                <li id="left4"><a href="">More</a></li>
+            </ul>
+            <i id="plus" class="fas fa-plus"></i>
+            <img src="../images/en.jpg" id="lang" alt="enlang">
+            <ul class="rightitems">
+                <li id="right2"><a href="">Login</a></li>
+                <li id="right3"><a href="">Join TMDb</a></li>
+                <li id="right4"><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <img src="../images/searchicon.png" id="searchicon" alt="searchicon">
+        </header>
+    <!--Now Playing Header-->
+    <div id="nowplaying">
+        <h3>Now Playing Movies</h3>
+    </div>
+    <!--Information for each of the movie grids-->
+    <div class="wrapper">
+        <div class="box 1">
+            <a href="details1.html"><img src="../images/movie1.jpg" title="The Croods: A New Age" alt="TheCroods"></a>
+            <h2>
+                <a href="details1.html" title="The Croods: A New Age">The Croods: A New Age</a>
+            </h2>
+            <p>(G) Nov 25, 2020</p>
+        </div>
+        <div class="box 2">
+            <a href="details2.html"><img src="../images/movie5.jpg" title="Come Away" alt="Come Away"></a>
+            <h2>
+                <a href="details2.html" title="Come Away">Come Away</a>
+            </h2>
+            <p>(PG) Nov 13, 2020</p>
+        </div>
+        <div class="box 3">
+            <img src="../images/movie3.jpg" title="Freaky" alt="Freaky">
+            <h2>
+                <a href="" title="Freaky">Freaky</a>
+            </h2>
+            <p>(R) Nov 13, 2020</p>
+        </div>
+        <div class="box 4">
+            <img src="../images/movie4.jpg" title="Let Him Go" alt="LetHimGo">
+            <h2>
+                <a href="" title="Let Him Go">Let Him Go</a>
+            </h2>
+            <p>(R) Nov 06, 2020</p>
+        </div>
+        <div class="box 5">
+            <img src="../images/movie2.jpg" title="Fate/stay night: Heaven's Feel III. Spring Song" alt="Fate/stayNight">
+            <h2>
+                <a href="" title="Fate/stay night: Heaven's Feel III. Spring Song">Fate/stay night: Heaven's<span> Feel III. Spring Song</span></a>
+            </h2>
+            <p id= "fateDate">(PG) Nov 18, 2020</p>
+        </div>
+        <div class="box 6">
+            <img src="../images/movie6.jpg" title="The Last Vermeer" alt="TheLastVermeer">
+            <h2>
+                <a href="" title="The Last Vermeer">The Last Vermeer</a>
+            </h2>
+            <p>(R) Nov 20, 2020</p>
+        </div>
+        <div class="box 7">
+            <img src="../images/movie7.jpg" title="Embattled" alt="Embattled">
+            <h2>
+                <a href="" title="Embattled">Embattled</a>
+            </h2>
+            <p>(R) Nov 20, 2020</p>
+        </div>
+        <div class="box 8">
+            <img src="../images/movie8.jpg" title="63 Up" alt="63Up">
+            <h2>
+                <a href="" title="63 Up">63 Up</a>
+            </h2>
+            <p>Dec 13, 2019</p>
+        </div>
+
+        <div id="loadmore">
+            <a href="">Load More</a>
+        </div>
+      </div>
+    </body> 
+    
+    <!--Footer information-->
+    <footer>
+        <div class="dbfooter">
+            <img src="../images/footer1.jpg" id="footer1" alt="movielogo">
+            <button id="button">JOIN THE COMMUNITY</button>
+
+            <div class="listinfo">
+                <ul id="basics">
+                    <li>THE BASICS</li>
+                    <li>About TMDb</li>
+                    <li>Contact Us</li>
+                    <li>Support Forums</li>
+                    <li>API</li>
+                    <li>System Status</li>
+                </ul>
+                <ul id="involved">
+                    <li>GET INVOLVED</li>
+                    <li>Contribution Bible</li>
+                    <li>3rd Party Applications</li>
+                    <li>Add New Movie</li>
+                    <li>Add New TV Show</li>
+                </ul>
+                <ul id="community">
+                    <li>COMMUNITY</li>
+                    <li>Guidelines</li>
+                    <li>Discussions</li>
+                    <li>Leaderboard</li>
+                    <a href="https://twitter.com/themoviedb"><li id="twitter">Twitter</li></a>
+                </ul>
+                <ul id="legal">
+                    <li>LEGAL</li>
+                    <li>Terms of Use</li>
+                    <li>API Terms of Use</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+            <div class="emailform">
+                <form action="https://formspree.io/f/xjvpednn" method="POST">
+                <div class="forminfo">
+                    <label>
+                        Subscribe to our newsletter!<br>
+                    </label>
+                    <div class="textfield">
+                        <input type="text" name="_replyto" placeholder = "Enter your email...">
+                    <button id="emailbutton" type="submit">Subscribe</button>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+        
+    </footer>
+</html>
